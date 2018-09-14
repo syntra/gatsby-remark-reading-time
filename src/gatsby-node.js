@@ -1,4 +1,4 @@
-// const readingTime = require("reading-time");
+const readingTime = require("reading-time");
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
@@ -6,7 +6,7 @@ exports.onCreateNode = ({ node, actions }) => {
     createNodeField({
       node,
       name: `readingTime`,
-      value: "test",
+      value: readingTime(node.rawMarkdownBody),
     });
   }
 };
