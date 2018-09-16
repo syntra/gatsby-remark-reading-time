@@ -1,5 +1,7 @@
 # gatsby-remark-reading-time
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syntra/gatsby-remark-reading-time.svg)](https://greenkeeper.io/)
+
 Adds a medium-like reading time estimate to your gatsby remark posts. Powered by [`reading-time`](https://github.com/ngryman/reading-time).
 
 ## Installation
