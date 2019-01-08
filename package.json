@@ -39,6 +39,6 @@
     "prettier": "1.14.2"
   },
   "peerDependencies": {
-    "gatsby": "next"
+    "gatsby": "^2.0.0"
   }
 }
