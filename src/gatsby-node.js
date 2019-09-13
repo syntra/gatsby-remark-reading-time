@@ -8,5 +8,11 @@ exports.onCreateNode = ({ node, actions }) => {
       name: `readingTime`,
       value: readingTime(node.rawMarkdownBody),
     });
+  } else if (node.internal.type === `Mdx`) {
+    createNodeField({
+      node,
+      name: `readingTime`,
+      value: readingTime(node.rawBody),
+    });
   }
 };
