@@ -17,6 +17,7 @@
     "prebuild": "npm run lint",
     "build": "cross-env BABEL_ENV=production babel src --out-dir .",
     "lint": "eslint --ext .js src",
+    "test": "npm run lint",
     "prepublishOnly": "yarn build"
   },
   "husky": {
