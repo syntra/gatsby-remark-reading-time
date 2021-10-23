@@ -1,8 +1,8 @@
 module.exports = {
   env: {
-    es6: true,
+    es2020: true,
     node: true,
   },
   extends: ["eslint:recommended", "prettier"],
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
 };
